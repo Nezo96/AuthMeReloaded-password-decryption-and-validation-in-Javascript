@@ -1,0 +1,22 @@
+{
+  "name": "authmereloaded-password-decryption-and-validation-in-javascript",
+  "version": "1.0.0",
+  "description": "This is password check for hashed password from authme database",
+  "main": "passwordChecking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nezo96/AuthMeReloaded-password-decryption-and-validation-in-Javascript.git"
+  },
+  "author": "Radoslav Rác | Nezo96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nezo96/AuthMeReloaded-password-decryption-and-validation-in-Javascript/issues"
+  },
+  "homepage": "https://github.com/Nezo96/AuthMeReloaded-password-decryption-and-validation-in-Javascript#readme",
+  "dependencies": {
+    "salted-sha256": "^1.0.0"
+  }
+}
