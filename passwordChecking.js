@@ -66,6 +66,7 @@ function checkPassword(givenPassword, dbPassword) {
 
 }
 
+// This function will generate encripted password like int database for testing
 function genRandomPw(password) {
     // Hash given password with SHA256
     const firstHash = saltedSha256(password);
