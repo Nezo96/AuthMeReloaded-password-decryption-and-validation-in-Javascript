@@ -5,4 +5,6 @@ This code was converted from original php files by me and is based on using SHA2
 
 You can use this password checking in your projects
 
+To run this code simpli type "node passwordChecking.js" to console
+
 Radoslav Rác | Nezo96

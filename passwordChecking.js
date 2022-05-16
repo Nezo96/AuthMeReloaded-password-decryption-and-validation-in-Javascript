@@ -28,13 +28,13 @@ function getSaltFromPassword(password) {
     return salt[2];
 }
 
-// Generate new password with our salt and givent password
+// Generate new password with our salt and given password
 function generateNewPassword(salt, password) {
 
     // Hash given password with SHA256
     const firstHash = saltedSha256(password);
 
-    // Hash given password with SHA256 agan and add our salt
+    // Hash given password with SHA256 again and add our salt
     const secondHash = saltedSha256(firstHash, salt);
 
     // Concatinate all together
