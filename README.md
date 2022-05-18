@@ -1,5 +1,5 @@
 <p align="center">
-# AuthMeReloaded-password-decryption-and-validation-in-Javascript
+<bold>AuthMeReloaded-password-decryption-and-validation-in-Javascript</bopld>
 </p>
 This is pasword decription and password checking for Authme Reloaded plugin.
 
@@ -8,7 +8,7 @@ This code was converted from original php files by me and is based on using SHA2
 You can use this password checking in your projects
 
 <p align="center">
-## Before you run any of these commands please change data inside every single files to your data to ensure that code will work properly
+<bold>Before you run any of these commands please change data inside every single files to your data to ensure that code will work properly</bold>
 </p>
 
 To install all dependencies type
