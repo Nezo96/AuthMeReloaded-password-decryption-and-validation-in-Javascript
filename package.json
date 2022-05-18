@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Nezo96/AuthMeReloaded-password-decryption-and-validation-in-Javascript#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
+    "mysql": "^2.18.1",
     "salted-sha256": "^1.0.0"
   }
 }
