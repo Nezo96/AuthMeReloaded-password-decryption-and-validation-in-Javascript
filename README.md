@@ -6,6 +6,9 @@ This code was converted from original php files by me and is based on using SHA2
 You can use this password checking in your projects
 
 ## Before you run any of these commands please change data inside every single files to your data to ensure that code will work properly
+```
+To install all dependencies type "npm install"
+```
 
 ```
 To check password type "node passwordChecking.js"
