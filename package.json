@@ -19,6 +19,7 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "mysql": "^2.18.1",
+    "node-fetch": "2.0",
     "salted-sha256": "^1.0.0"
   }
 }
