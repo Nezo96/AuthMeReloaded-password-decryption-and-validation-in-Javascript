@@ -7,11 +7,9 @@ You can use this password checking in your projects
 
 ## Before you run any of these commands please change data inside every single files to your data to ensure that code will work properly
 
-To check password type "node passwordChecking.js"
-
-To register user type "node registerUsers.js"
-
-To change password type "node changePw.js"
+> To check password type "node passwordChecking.js"
+> To register user type "node registerUsers.js"
+> To change password type "node changePw.js"
 
 Radoslav Rác | Nezo96
 
