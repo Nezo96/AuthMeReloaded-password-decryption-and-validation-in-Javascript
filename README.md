@@ -8,3 +8,8 @@ You can use this password checking in your projects
 To run this code simply type "node passwordChecking.js" to console
 
 Radoslav Rác | Nezo96
+
+- [x] Password checking rewritten to javascript
+- [ ] Register user rewritten to javascript
+- [ ] Password change rewritten to javascript
+- [ ] Unregister user rewritten to javascript
