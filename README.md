@@ -31,4 +31,4 @@ Additional functionality
 - [x] Password change rewritten to javascript
 - [ ] Unregister user rewritten to javascript
 
-Radoslav Rác | Nezo96 :simple_smile:
+Radoslav Rác | Nezo96 :slightly_smiling_face:
