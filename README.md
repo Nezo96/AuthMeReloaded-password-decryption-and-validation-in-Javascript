@@ -9,13 +9,20 @@ You can use this password checking in your projects
 
 To install all dependencies type
 ```
-"npm install"
+npm install
 ```
 
+To check password type 
 ```
-To check password type "node passwordChecking.js"
-To register user type "node registerUsers.js"
-To change password type "node changePw.js"
+node passwordChecking.js
+```
+To register user type 
+```
+node registerUsers.js
+```
+To change password type
+```
+node changePw.js
 ```
 
 Radoslav Rác | Nezo96
