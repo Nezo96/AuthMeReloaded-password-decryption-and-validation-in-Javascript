@@ -25,10 +25,10 @@ To change password type
 node changePw.js
 ```
 
-Radoslav Rác | Nezo96
-
 Additional functionality
 
 - [x] Register user rewritten to javascript
 - [x] Password change rewritten to javascript
 - [ ] Unregister user rewritten to javascript
+
+Radoslav Rác | Nezo96 :simple_smile:
