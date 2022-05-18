@@ -11,5 +11,5 @@ Radoslav Rác | Nezo96
 
 - [x] Password checking rewritten to javascript
 - [x] Register user rewritten to javascript
-- [ ] Password change rewritten to javascript
+- [x] Password change rewritten to javascript
 - [ ] Unregister user rewritten to javascript

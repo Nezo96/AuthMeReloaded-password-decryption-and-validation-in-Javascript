@@ -12,10 +12,10 @@
 const saltedSha256 = require('salted-sha256');
 
 // This is password that we got from DB
-const dbPassword = '$SHA$dc991e87ddb674f1$772704cbebbb04246497f77f43ab50f5568d50849f2ed9bb2ed35f7eebbcd9ba';
+const dbPassword = '$SHA$dc991e87ddb674f1$9c27ce343ccee87be3dca9c1f7aac79abe2f71abd7cb2825006f0a64bafdd361';
 
 // This is our password that we want validate
-const pass = 'teste';
+const pass = 'test';
 
 // Get salt from that password
 function getSaltFromPassword(password) {
