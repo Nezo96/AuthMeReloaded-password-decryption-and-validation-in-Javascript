@@ -35,5 +35,6 @@ Additional functionality
 - [x] Register user rewritten to javascript
 - [x] Password change rewritten to javascript
 - [ ] Unregister user rewritten to javascript
+- [x] Updated to arrow functions
 
 Radoslav Rác | Nezo96 :thumbsup:

@@ -18,7 +18,7 @@ const dbPassword = '$SHA$dc991e87ddb674f1$9c27ce343ccee87be3dca9c1f7aac79abe2f71
 const pass = 'test';
 
 // Get salt from that password
-function getSaltFromPassword(password) {
+const getSaltFromPassword = (password) => {
 
     // Split password after $
     const salt = password.split('$');
@@ -29,7 +29,7 @@ function getSaltFromPassword(password) {
 }
 
 // Generate new password with our salt and given password
-function generateNewPassword(salt, password) {
+const generateNewPassword = (salt, password) => {
 
     // Hash given password with SHA256
     const firstHash = saltedSha256(password);
@@ -45,7 +45,7 @@ function generateNewPassword(salt, password) {
 }
 
 // Now check our given password with password from database
-function checkPassword(givenPassword, dbPassword) {
+const checkPassword = (givenPassword, dbPassword) => {
 
     // Save salt we got from dbPassword to saltFromPw constant
     const saltFromPw = getSaltFromPassword(dbPassword);
@@ -67,7 +67,7 @@ function checkPassword(givenPassword, dbPassword) {
 }
 
 // This function will generate encripted password to simulate password from database for testing
-function genRandomPw(password) {
+const genRandomPw = (password) => {
     // Hash given password with SHA256
     const firstHash = saltedSha256(password);
 

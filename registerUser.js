@@ -16,7 +16,7 @@ const conn = mysql.createConnection({
 })
 
 // Function for register new user
-async function registerUser(username, password, email) {
+const registerUser = async (username, password, email) => {
 
     //console.log(email);
     // Make realname from username that we lowercase
@@ -47,7 +47,7 @@ async function registerUser(username, password, email) {
 }
 
 // Generate new password with our salt and given password
-function generateNewPassword(salt, password) {
+const generateNewPassword = (salt, password) => {
 
     // Hash given password with SHA256
     const firstHash = saltedSha256(password);
@@ -63,7 +63,7 @@ function generateNewPassword(salt, password) {
 }
 
 // Function to get user IP
-function getIp() {
+const getIp = () => {
     return fetch("https://api.ipify.org/?format=json")
         .then(res => res.json())
         .then(data => data.ip)
