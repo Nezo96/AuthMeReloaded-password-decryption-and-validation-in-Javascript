@@ -9,7 +9,7 @@ This code was converted from original php files by me and is based on using ```S
 You can use this password checking in your projects
 
 <h3 align="center">
-<bold>Before you run any of these commands please change data inside every single files to your data to ensure that code will work properly</bold>
+<bold>Before you run any of these commands please change data inside every single file to your data to ensure that code will work properly</bold>
 </h3>
 
 To install all dependencies type
